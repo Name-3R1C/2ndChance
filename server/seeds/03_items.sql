@@ -1,3 +1,3 @@
-INSERT INTO items (owner_id, category, name, description, price, size, color, image)
+INSERT INTO items (user_id, category, name, description, price, size, color, image)
 VALUES
 (1, 1, 'curabitur','Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', 27.33, NULL, NULL, 'https://github.com/Vasu7389/react-project-ideas/blob/master/day009/shoppinn/public/assets/irene-kredenets-dwKiHoqqxk8-unsplash.jpg');

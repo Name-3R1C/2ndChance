@@ -1,3 +1,3 @@
-INSERT INTO categories (name)
+INSERT INTO categories (category)
 VALUES
 ('clothing');
