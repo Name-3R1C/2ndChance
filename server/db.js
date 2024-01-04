@@ -1,5 +1,7 @@
 const { Pool } = require("pg");
 
+console.log("Database Password:", process.env.DB_PASSWORD);
+
 const pool = new Pool({
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
@@ -12,7 +14,7 @@ const getAllItems = () => {
   return pool
     .query(`SELECT * FROM items`)
     .then(result => {
-      console.log("getAllItems ---", JSON.stringify(result.rows));
+      console.log("getAllItems ---");
       return result.rows;
     })
     .catch(err => {
